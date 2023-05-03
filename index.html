@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="/dist/output.css" rel="stylesheet" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet" />
+</head>
+
+<body class="font-pop">
+    <!-- hero -->
+    <main class=" bg-[url(/img/bike.png)] bg-cover  h-full flex flex-col bg-slate-700">
+        <header>
+            <div class="flex flex-row items-center justify-between px-11 text-base text-white py-4">
+                <img src="/img/logo.svg" alt="">
+                <div class="flex flex-row gap-20 h-7 font-base">
+                    <a href="#" class="hover:border-b-2 ">Features</a>
+                    <a href="#" class="hover:border-b-2 ">Pricing</a>
+                    <a href="#" class="hover:border-b-2 ">About Us</a>
+                    <a href="#" class="hover:border-b-2 ">Contact</a>
+                </div>
+                <button href="#" class="bg-white text- font-medium text-[#525E8B] px-3 py-1 rounded">Sign Up</button>
+            </div>
+        </header>
+        <div class="h-[540px] 2xl:h-[900px] flex flex-row  items-center justify-end pr-10 2xl:pr-40">
+            <div class="Description h- flex flex-col font-[400] w-[540px]  gap-10 text-white">
+                <div class="text-5xl 2xl:text-6xl w-[400px] 2xl:w-[500px] font-semibold leading-[72px] 2xl:leading-[80px] tracking-wider">Explore The World With Ease</div>
+                <div class="text-xl 2xl:text-2xl">
+                    Want to explore new places but don't know where to start? Our platform connects you with local guides and adventure tours.
+                </div>
+                <div class="flex gap-5 text-base">
+                    <button href="#" class="bg-white text-[#525E8B] px-3 py-1 rounded font-medium">Sign Up</button>
+                    <button href="#" class="bg-[#525E8B] px-3 py-1 rounded font-medium"> View All Rides</button>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Selection  -->
+    <div class="bg-[#525E8B]/80 text-white py-6 flex gap-10 justify-center items-center">
+        <!-- PickUp -->
+        <div class="{border-gray-600} w-40 border-white border-r-2">
+            <div class="font-medium">Pick Up Address</div>
+            <div class="text-xs flex gap-3 items-end">
+                <div class="hover:cursor-pointer">Select Address</div>
+                <img class="h-3 w-3" src="/img/down.svg" alt="down">
+            </div>
+        </div>
+
+        <!-- DropOff -->
+        <div class="{border-gray-600} w-40 border-white border-r-2">
+            <div class="font-medium">Drop Off Address</div>
+            <div class="text-xs flex gap-3 items-end">
+                <div class="hover:cursor-pointer">Select Address</div>
+                <img class="h-3 w-3" src="/img/down.svg" alt="down">
+            </div>
+        </div>
+
+        <!-- Date -->
+        <div class="{border-gray-600} w-40 border-white border-r-2">
+            <div class="font-medium">Pick Up Date</div>
+            <div class="text-xs flex gap-3 items-end">
+                <div class="hover:cursor-pointer">Select Date</div>
+                <img class="h-3 w-3" src="/img/down.svg" alt="down">
+            </div>
+        </div>
+
+        <!-- Address -->
+        <div class="{border-gray-600} w-40 border-white border-r-2">
+            <div class="font-medium">Pick Up Time</div>
+            <div class="text-xs flex gap-3 items-end">
+                <div class="hover:cursor-pointer">Select Time</div>
+                <img class="h-3 w-3" src="/img/down.svg" alt="down">
+            </div>
+        </div>
+
+        <!-- Rent Button -->
+        <button href="#" class="{bg-[#525E8B]} bg-white text-[#525E8B] px-5 rounded h-8 font-medium"> Rent</button>
+    </div>
+
+    <!-- Below hero and Selection -->
+    <div class="flex flex-col gap-16 py-10">
+        <!-- How it Works -->
+        <div class="flex flex-col gap-14 py-10 items-center text-center">
+            <!-- heading -->
+            <div class="flex flex-col gap-4">
+                <div class="text-4xl font-medium">How it Works</div>
+                <div class="text-xl font-normal">Book your bike in just 3 easy steps.</div>
+            </div>
+            <!-- location -->
+            <div class="flex gap-14">
+                <div class="flex flex-col items-center text-center gap-4">
+                    <img class="h-28 w-28" src="/img/location.svg" alt="">
+                    <div class="flex flex-col  gap-2">
+                        <div class="font-medium text-2xl ">Choose Location</div>
+                        <div class="text-base w-80 ">Enter your desired pickup location to view available bikes in the area.</div>
+                    </div>
+                </div>
+                <!-- date -->
+                <div class="flex flex-col items-center text-center gap-4">
+                    <img class="h-28 w-28" src="/img/date.svg" alt="">
+                    <div class="flex flex-col  gap-2">
+                        <div class="font-medium text-2xl ">Pick-Up Date</div>
+                        <div class="text-base w-80 ">Choose the date and time you want to pick up your bike.</div>
+                    </div>
+                </div>
+                <!-- bike -->
+                <div class="flex flex-col items-center text-center gap-4">
+                    <img class="h-28 w-28" src="/img/bike.svg" alt="">
+                    <div class="flex flex-col  gap-2">
+                        <div class="font-medium text-2xl ">Book your bike</div>
+                        <div class="text-base w-80 ">Book your dream ride with just a few clicks and hit the road in no time!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Our Top Picks -->
+        <div class="flex flex-col gap-14 py-10 items-center text-center">
+            <!-- heading -->
+            <div class="flex flex-col gap-4">
+                <div class="text-4xl font-medium">Our Top Picks</div>
+                <div class="text-xl font-normal">Bikes That Won't Disappoint</div>
+            </div>
+
+            <!-- bikes -->
+            <div class="flex gap-8">
+                <!-- bike1 -->
+                <div class="border p-3 w-60 rounded-lg text-sm bg-[url(/img/bikes/bike1.png)] bg-contain bg-bottom ">
+                    <div class="h-72 flex flex-col justify-between">
+                        <div class="flex gap-4 ">
+                            <div class="font-semibold">Sport Bikes</div>
+                            <img src="/img/tag.svg" alt="">
+                        </div>
+                        <div class="flex justify-between">
+                            <div>Price: ₹1000/day</div>
+                            <div>Book Now</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- bike2 -->
+                <div class="border p-3 w-60 rounded-lg text-sm bg-[url(/img/bikes/bike2.png)] bg-contain bg-bottom ">
+                    <div class="h-72 flex flex-col justify-between">
+                        <div class="flex gap-4 ">
+                            <div class="font-semibold">Sport Bikes</div>
+                            <img src="/img/tag.svg" alt="">
+                        </div>
+                        <div class="flex justify-between">
+                            <div>Price: ₹1000/day</div>
+                            <div>Book Now</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- bike3 -->
+                <div class="border p-3 w-60 rounded-lg text-sm bg-[url(/img/bikes/bike3.png)] bg-contain bg-bottom">
+                    <div class="h-72 flex flex-col justify-between">
+                        <div class="flex gap-4 ">
+                            <div class="font-semibold">Sport Bikes</div>
+                            <img src="/img/tag.svg" alt="">
+                        </div>
+                        <div class="flex justify-between">
+                            <div>Price: ₹1000/day</div>
+                            <div>Book Now</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- bike4 -->
+                <div class="border p-3 w-60 rounded-lg text-sm bg-[url(/img/bikes/bike4.png)] bg-contain bg-bottom">
+                    <div class="h-72 flex flex-col justify-between">
+                        <div class="flex gap-4 ">
+                            <div class="font-semibold">Sport Bikes</div>
+                            <img src="/img/tag.svg" alt="">
+                        </div>
+                        <div class="flex justify-between">
+                            <div>Price: ₹1000/day</div>
+                            <div>Book Now</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Our Key Features -->
+        <div class="flex flex-col gap-14 py-10 items-center text-center">
+            <!-- heading -->
+            <div class="flex flex-col gap-4">
+                <div class="text-4xl font-medium">Our Key Features</div>
+                <div class="text-xl font-normal">Discover the best features that make us stand out from the rest.</div>
+            </div>
+
+            <!-- Features lists -->
+            <div class="flex flex-col gap-14">
+                <!-- 1st row -->
+                <div class="flex gap-14">
+                    <!-- Hassle-free Booking-->
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <img class="h-24 w-24" src="/img/features/Hassle.svg" alt="">
+                        <div class="flex flex-col gap-2">
+                            <div class="font-medium text-2xl">Hassle-free Booking</div>
+                            <div class="text-base w-80 ">Easily reserve your preferred motorcycle online.</div>
+                        </div>
+                    </div>
+                    <!-- Reliable Bikes -->
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <img class="h-24 w-24" src="/img/features/Reliable.svg" alt="">
+                        <div class="flex flex-col  gap-2">
+                            <div class="font-medium text-2xl ">Reliable Bikes</div>
+                            <div class="text-base w-80 ">Our fleet is regularly maintained to ensure top performance.</div>
+                        </div>
+                    </div>
+                    <!-- Flexible Rentals -->
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <img class="h-24 w-24" src="/img/features/Flexible.svg" alt="">
+                        <div class="flex flex-col  gap-2">
+                            <div class="font-medium text-2xl ">Book your bike</div>
+                            <div class="text-base w-80 ">Book your dream ride with just a few clicks and hit the road in no time!</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2nd row -->
+                <div class="flex gap-14">
+                    <!-- Affordable Rates-->
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <img class="h-24 w-24" src="/img/features/Affordable.svg" alt="">
+                        <div class="flex flex-col gap-2">
+                            <div class="font-medium text-2xl">Affordable Rates</div>
+                            <div class="text-base w-80 ">Enjoy competitive pricing and great value for your money.</div>
+                        </div>
+                    </div>
+                    <!-- Reliable Bikes -->
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <img class="h-24 w-24" src="/img/features/Support.svg" alt="">
+                        <div class="flex flex-col  gap-2">
+                            <div class="font-medium text-2xl ">Excellent Customer Support</div>
+                            <div class="text-base w-80 ">Our team is always ready to assist you with any questions or concerns.</div>
+                        </div>
+                    </div>
+                    <!-- Flexible Rentals -->
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <img class="h-24 w-24" src="/img/features/Secure.svg" alt="">
+                        <div class="flex flex-col  gap-2">
+                            <div class="font-medium text-2xl ">Safe and Secure</div>
+                            <div class="text-base w-80 ">Regular bike maintenance for your safety and peace of mind</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="flex flex-col gap-5">
+        <!-- services -->
+        <div class="flex items-center justify-center gap-16">
+            <!-- free shipping -->
+            <div class="flex items-center gap-3">
+                <img src="/img/icons/box.png" alt="">
+                <div class="flex flex-col gap-1">
+                    <div class="font-medium text-base">Free Shipping</div>
+                    <div class="text-xs">Free Shipping for Orders Over ₹2000</div>
+                </div>
+            </div>
+
+            <!-- money guarantee -->
+            <div class="flex items-center gap-3">
+                <img src="/img/icons/box.png" alt="">
+                <div class="flex flex-col gap-1">
+                    <div class="font-medium text-base">Free Shipping</div>
+                    <div class="text-xs">Free Shipping for Orders Over ₹2000</div>
+                </div>
+            </div>
+
+            <!-- online support -->
+            <div class="flex items-center gap-3">
+                <img src="/img/icons/box.png" alt="">
+                <div class="flex flex-col gap-1">
+                    <div class="font-medium text-base">Free Shipping</div>
+                    <div class="text-xs">Free Shipping for Orders Over ₹2000</div>
+                </div>
+            </div>
+
+            <!-- flexible payment -->
+            <div class="flex items-center gap-3">
+                <img src="/img/icons/box.png" alt="">
+                <div class="flex flex-col gap-1">
+                    <div class="font-medium text-base">Free Shipping</div>
+                    <div class="text-xs">Free Shipping for Orders Over ₹2000</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- links -->
+        <div class="flex gap-10 px-5 w-full border-y justify-center">
+            <!-- link1 -->
+            <div class="flex flex-col gap-2 text-sm w-[300px] border-r py-5">
+                <div class="font-medium">Company</div>
+                <div class="flex flex-col gap-1">
+                    <div>Find a location nearest you.</div>
+                    <div>See Our Stores</div>
+                    <div>+91 9476XXXXXX</div>
+                    <div>hello@domain.com</div>
+                </div>
+            </div>
+
+            <!-- link2 -->
+            <div class="flex flex-col gap-2 text-sm w-[300px] border-r py-5">
+                <div class="font-medium">Information</div>
+                <div class="flex flex-col gap-1">
+                    <div>My Account</div>
+                    <div>Login</div>
+                    <div>My Cart</div>
+                    <div>Wishlist</div>
+                    <div>Checkout</div>
+                </div>
+            </div>
+
+            <!-- link3 -->
+            <div class="flex flex-col gap-2 text-sm w-[300px] border-r py-5">
+                <div class="font-medium">Services</div>
+                <div class="flex flex-col gap-1">
+                    <div>About Us</div>
+                    <div>Careers</div>
+                    <div>Delivery Information</div>
+                    <div>Privacy Policy</div>
+                    <div>Terms & Condition</div>
+                </div>
+            </div>
+
+            <!-- link4 -->
+            <div class="flex flex-col gap-2 text-sm w-[300px] py-5">
+                <div class="font-medium">Subscibe</div>
+                <div class="flex flex-col gap-1">
+                    <div>Enter your email below to be the first to know about new collections and product launches.</div>
+                    <div class="px-4 py-2 rounded bg-[#222222]/10">
+                        <div class="flex justify-between">
+                            <div class="flex gap-3">
+                                <img src="/img/icons/mail.svg" alt="">
+                                <div>Your Email</div>
+                            </div>
+                            <img src="/img/icons/arrow.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- foot -->
+        <div class="flex items-center justify-between px-16 py-3 gap-16">
+            <!-- pay -->
+            <div class="w-52 ">
+                <img src="/img/icons/payment.png" alt="">
+            </div>
+
+            <!-- copyright -->
+            <div class="font-medium">
+                © Ridehive 2023
+            </div>
+
+            <!-- Social -->
+            <div class="flex items-center gap-3 w-52">
+                <img src="/img/icons/fb.png" alt="">
+                <img src="/img/icons/insta.png" alt="">
+                <img src="/img/icons/twitter.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
